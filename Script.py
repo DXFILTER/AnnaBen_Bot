@@ -7,17 +7,11 @@ class script(object):
     ABOUT_TXT = """
 𝗧𝗛𝗜𝗦 𝗔𝗡𝗡𝗔 𝗕𝗘𝗡'𝗦 𝗔𝗕𝗢𝗨𝗧 𝗠𝗦𝗚
 ✵✵✵✵✵✵✵✵✵✵✵✵✵✵✵✵✵✵✵✵
-╔════❰ ꪖ᥇ꪮꪊ𝓽 ꪑ𝘴ᧁ ❱═❍⊱❁۪۪
-║╭━━━━━━━━━━━━━━━➣ 
-║┣⪼ 𝙈𝙔 𝙉𝘼𝙈𝙀 - <a href="https://t.me/Dqautofl_Bot"> 𝑨𝑵𝑵𝑨 𝑩𝑬𝑵 </a>
-║┣⪼ Ⓓ︎Ⓔ︎Ⓥ︎1 - <a href="https://t.me/pro_editor_tg"> Lalluᵗᵍ </a>
-║┣⪼ Ⓓ︎Ⓔ︎Ⓥ︎2 - <a href="https://t.me/PANDITHAN_SIR"> ⸙ꠋꠋꠋꠋꠋꠋꠋꠋꠋꠋꠋꠋꠋꠋꠋꠋꠋꠋꠋM-STER </a>
-║┣⪼ 𝓛𝓲𝓫𝓻𝓪𝓻𝓻𝔂 - 𝙿𝚈𝚁𝙾𝙶𝚁𝙰𝙼
-║┣⪼ 𝓛𝓪𝓷𝓰𝓾𝓪𝓰𝓮 - 𝙿𝚈𝚃𝙷𝙾𝙽 𝟹
-║┣⪼ 𝓓𝓪𝓽𝓪 𝓑𝓪𝓼𝓮 - 𝙼𝙾𝙽𝙶𝙾 𝙳𝙱
-║┣⪼ 𝓑𝓸𝓽 𝓼𝓮𝓻𝓿𝓮𝓻 -  𝙷𝙴𝚁𝙾𝙺𝚄
-║┣⪼ 𝓑𝓾𝓲𝓵𝓭 𝓢𝓽𝓪𝓽𝓾𝓼 - v1.0.1 [ 𝙱𝙴𝚃𝙰 ]
-║╰━━━━━━━━━━━━━━━➣ ╚══════════════════❍⊱❁۪۪"""
+🤖 ʙᴏᴛ ɴᴀᴍᴇ: <a href=http://t.me/Dxfilter_Bot>ᴀʟᴇxᴀ </a>
+👨‍💼 ᴅᴇᴠᴇʟᴏᴘᴇʀ : <a href=https://t.me/CINEMA_CLUB_ADMIN_ROBOT>ʙᴏᴛ ᴏᴡɴᴇʀ </a>
+👨‍💻 ᴄʀᴇᴀᴛᴏʀ : <a href=https://t.me/dxfilter>sᴜɴᴇᴇsʜ ᴅᴇᴇᴢᴜᴢᴢᴀ </a>
+👥  ɢʀᴏᴜᴘ : <a href=https://t.me/MMCINEMACHAKKU>ᴄɪɴᴇᴍᴀ ᴄɪᴛʏ ɢʀᴏᴜᴘ </a>
+📢  ᴄʜᴀɴɴᴇʟ : <a href=https://t.me/+yP9ckmsoGF1kNDNl>ᴄɪɴᴇᴍᴀ ᴄɪᴛʏ ᴄʜᴀɴɴᴇʟ </a>
     SOURCE_TXT = """<b>NOTE:</b>
 - 𝑰 𝒂𝒎  𝒂 𝒐𝒑𝒆𝒏 𝒔𝒐𝒖𝒓𝒄𝒆 𝒑𝒓𝒐𝒋𝒆𝒄𝒕. 
 - ՏOᑌᖇᑕᗴ ᑕOᗪᗴ - <a href="https://github.com/Lallu-lallus/AnnaBen_robot"> 𝗖𝗟𝗜𝗖𝗞 𝗛𝗘𝗥𝗘 </a>
