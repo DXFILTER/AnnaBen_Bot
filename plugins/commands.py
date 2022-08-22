@@ -37,10 +37,10 @@ async def start(client, message):
         await client.send_message(LOG_CHANNEL, script.LOG_TEXT_P.format(message.from_user.id, message.from_user.mention))
     if len(message.command) != 2:
         buttons = [[
-            InlineKeyboardButton('ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ', url='http://t.me/Dxfilter_Bot?startgroup=true')
+            InlineKeyboardButton('➕️ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ➕️', url='http://t.me/Dxfilter_Bot?startgroup=true')
             ],[
-            InlineKeyboardButton('ᴄʜᴀɴɴᴇʟ', url='https://t.me/malayali00l'),
-            InlineKeyboardButton('ɢʀᴏᴜᴘ', url='https://t.me/MMCINEMACHAKKU')
+            InlineKeyboardButton('💥ᴄʜᴀɴɴᴇʟ💥', url='https://t.me/malayali00l'),
+            InlineKeyboardButton('🍿ɢʀᴏᴜᴘ🍿', url='https://t.me/MMCINEMACHAKKU')
             ],[
             InlineKeyboardButton('ʜᴇʟᴘ', callback_data='help'),
             InlineKeyboardButton('ᴀʙᴏᴜᴛ', callback_data='about')
