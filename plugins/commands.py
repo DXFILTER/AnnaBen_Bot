@@ -18,10 +18,10 @@ async def start(client, message):
     if message.chat.type in ['group', 'supergroup']:
         buttons = [
             [
-                InlineKeyboardButton('𝚄𝙿𝙳𝙰𝚃𝙴𝚂', url='https://t.me/malayali00l')
+                InlineKeyboardButton('💥ᴄʜᴀɴɴᴇʟ💥', url='https://t.me/malayali00l')
             ],
             [
-                InlineKeyboardButton('𝙷𝙴𝙻𝙿', url=f"https://t.me/{temp.U_NAME}?start=help"),
+                InlineKeyboardButton('🚸ʜᴇʟᴘ🚸', url=f"https://t.me/{temp.U_NAME}?start=help"),
             ]
             ]
         reply_markup = InlineKeyboardMarkup(buttons)
@@ -42,10 +42,10 @@ async def start(client, message):
             InlineKeyboardButton('💥ᴄʜᴀɴɴᴇʟ💥', url='https://t.me/malayali00l'),
             InlineKeyboardButton('🍿ɢʀᴏᴜᴘ🍿', url='https://t.me/MMCINEMACHAKKU')
             ],[
-            InlineKeyboardButton('ʜᴇʟᴘ', callback_data='help'),
-            InlineKeyboardButton('ᴀʙᴏᴜᴛ', callback_data='about')
+            InlineKeyboardButton('🚸ʜᴇʟᴘ🚸', callback_data='help'),
+            InlineKeyboardButton('♻️ᴀʙᴏᴜᴛ♻️', callback_data='about')
             ],[
-            InlineKeyboardButton('sᴇᴀʀᴄʜ', switch_inline_query_current_chat='')
+            InlineKeyboardButton('🔱sᴇᴀʀᴄʜ🔱', switch_inline_query_current_chat='')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_chat_action("typing")
@@ -69,31 +69,31 @@ async def start(client, message):
         btn = [
             [
                 InlineKeyboardButton(
-                    "🤖 Join Updates Channel", url=invite_link.invite_link
+                    "⚡️ 𝕁𝕠𝕚𝕟 𝕄𝕪 ℂ𝕙𝕒𝕟𝕟𝕖𝕝", url=invite_link.invite_link
                 )
             ]
         ]
 
         if message.command[1] != "subscribe":
-            btn.append([InlineKeyboardButton("𝚃𝚁𝚈 𝙰𝙶𝙰𝙸𝙽", callback_data=f"checksub#{message.command[1]}")])
+            btn.append([InlineKeyboardButton("🔄𝕋ℝ𝕐 𝔸𝔾𝔸𝕀ℕ", callback_data=f"checksub#{message.command[1]}")])
         await client.send_message(
             chat_id=message.from_user.id,
-            text="**Please Join My Updates Channel to use this Bot!**",
+            text="**ℙ𝕝𝕖𝕒𝕤𝕖 𝕁𝕠𝕚𝕟 𝕄𝕪 ℂ𝕙𝕒𝕟𝕟𝕖𝕝 𝕥𝕠 𝕦𝕤𝕖 𝕥𝕙𝕚𝕤 𝔹𝕠𝕥!🔱**",
             reply_markup=InlineKeyboardMarkup(btn),
             parse_mode="markdown"
             )
         return
     if len(message.command) ==2 and message.command[1] in ["subscribe", "error", "okay", "help"]:
         buttons = [[
-            InlineKeyboardButton('ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ', url='http://t.me/Dxfilter_Bot?startgroup=true')
+            InlineKeyboardButton('➕️ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ➕️', url='http://t.me/Dxfilter_Bot?startgroup=true')
             ],[
-            InlineKeyboardButton('ᴄʜᴀɴɴᴇʟ', url='https://t.me/malayali00l'),
-            InlineKeyboardButton('ɢʀᴏᴜᴘ', url='https://t.me/MMCINEMACHAKKU')
+            InlineKeyboardButton('💥ᴄʜᴀɴɴᴇʟ💥', url='https://t.me/malayali00l'),
+            InlineKeyboardButton('🍿ɢʀᴏᴜᴘ🍿', url='https://t.me/MMCINEMACHAKKU')
             ],[
-            InlineKeyboardButton('ʜᴇʟᴘ', callback_data='help'),
-            InlineKeyboardButton('ᴀʙᴏᴜᴛ', callback_data='about')
+            InlineKeyboardButton('🚸ʜᴇʟᴘ🚸', callback_data='help'),
+            InlineKeyboardButton('♻️ᴀʙᴏᴜᴛ♻️', callback_data='about')
             ],[
-            InlineKeyboardButton('sᴇᴀʀᴄʜ', switch_inline_query_current_chat='')
+            InlineKeyboardButton('🔱sᴇᴀʀᴄʜ🔱', switch_inline_query_current_chat='')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
