@@ -421,7 +421,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                     caption=f_caption
                     )
                 btn = [[
-                    InlineKeyboardButton("💥JOIN CHANNEL💥", url='https://t.me/+OwPc0ngwyCY4M2I1')
+                    InlineKeyboardButton("💥JOIN CHANNEL💥", url='https://t.me/malayali00l')
                 ]]
                 reply_markup = InlineKeyboardMarkup(btn)
                 bb = await query.message.reply_text(
@@ -469,7 +469,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         await query.answer()
     elif query.data == "start":
         buttons = [[
-            InlineKeyboardButton('➕️ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ➕️', url='http://t.me/dqautofl_bot?startgroup=true')
+            InlineKeyboardButton('➕️ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ➕️', url='http://t.me/Dxfilter_Bot?startgroup=true')
             ],[
             InlineKeyboardButton('💥ᴄʜᴀɴɴᴇʟ💥', url='https://t.me/malayali00l'),
             InlineKeyboardButton('🍿ɢʀᴏᴜᴘ🍿', url='https://t.me/MMCINEMACHAKKU')
