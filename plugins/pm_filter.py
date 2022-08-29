@@ -474,8 +474,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('💠 GᏒԾUᎮ 💠', url='https://t.me/+wUPk52ZjEEk3MmU1'),
             InlineKeyboardButton('💠 CHΛИИΞL 💠', url='https://t.me/CINEMA_CITY_UPDATES')
             ],[
-            InlineKeyboardButton('🚸HΞLᎮ🚸', callback_data='help'),
-            InlineKeyboardButton('♻️ΛBOUT♻️', callback_data='about')
+            InlineKeyboardButton('🚸 HΞLᎮ 🚸', callback_data='help'),
+            InlineKeyboardButton('♻️ ΛBOUT ♻️', callback_data='about')
             ],[
             InlineKeyboardButton('💠 SΞΛᏒCH HΞᏒΞ 💠', switch_inline_query_current_chat='')
         ]]
