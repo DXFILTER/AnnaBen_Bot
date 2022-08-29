@@ -18,10 +18,10 @@ async def start(client, message):
     if message.chat.type in ['group', 'supergroup']:
         buttons = [
             [
-                InlineKeyboardButton('💥ᴄʜᴀɴɴᴇʟ💥', url='https://t.me/malayali00l')
+                InlineKeyboardButton('💠 GᏒԾUᎮ 💠', url='https://t.me/+wUPk52ZjEEk3MmU1')
             ],
             [
-                InlineKeyboardButton('🚸ʜᴇʟᴘ🚸', url=f"https://t.me/{temp.U_NAME}?start=help"),
+                InlineKeyboardButton('🚸 HΞLᎮ 🚸', url=f"https://t.me/{temp.U_NAME}?start=help"),
             ]
             ]
         reply_markup = InlineKeyboardMarkup(buttons)
@@ -37,15 +37,15 @@ async def start(client, message):
         await client.send_message(LOG_CHANNEL, script.LOG_TEXT_P.format(message.from_user.id, message.from_user.mention))
     if len(message.command) != 2:
         buttons = [[
-            InlineKeyboardButton('➕️ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ➕️', url='http://t.me/Dxfilter_Bot?startgroup=true')
+            InlineKeyboardButton('⚚ ΛᎠᎠ MΞ ϮԾ YԾUᏒ GᏒԾUᎮ ⚚', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
-            InlineKeyboardButton('💥ᴄʜᴀɴɴᴇʟ💥', url='https://t.me/malayali00l'),
-            InlineKeyboardButton('🍿ɢʀᴏᴜᴘ🍿', url='https://t.me/MMCINEMACHAKKU')
+            InlineKeyboardButton('💠 GᏒԾUᎮ 💠', url='https://t.me/+wUPk52ZjEEk3MmU1'),
+            InlineKeyboardButton('💠 CHΛИИΞL 💠', url='https://t.me/CINEMA_CITY_UPDATES')
             ],[
-            InlineKeyboardButton('🚸ʜᴇʟᴘ🚸', callback_data='help'),
-            InlineKeyboardButton('♻️ᴀʙᴏᴜᴛ♻️', callback_data='about')
+            InlineKeyboardButton('🚸 HΞLᎮ 🚸', callback_data='help'),
+            InlineKeyboardButton('♻️ ΛBOUT ♻️', callback_data='about')
             ],[
-            InlineKeyboardButton('🔱sᴇᴀʀᴄʜ🔱', switch_inline_query_current_chat='')
+            InlineKeyboardButton('💠 SΞΛᏒCH HΞᏒΞ 💠', switch_inline_query_current_chat='')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_chat_action("typing")
@@ -69,31 +69,31 @@ async def start(client, message):
         btn = [
             [
                 InlineKeyboardButton(
-                    "⚡️ 𝕁𝕠𝕚𝕟 𝕄𝕪 ℂ𝕙𝕒𝕟𝕟𝕖𝕝", url=invite_link.invite_link
+                    "🔥 JOIИ CHΛИИΞL 🔥", url=invite_link.invite_link
                 )
             ]
         ]
 
         if message.command[1] != "subscribe":
-            btn.append([InlineKeyboardButton("🔄𝕋ℝ𝕐 𝔸𝔾𝔸𝕀ℕ", callback_data=f"checksub#{message.command[1]}")])
+            btn.append([InlineKeyboardButton("🔁 𝐓𝐫𝐲 𝐀𝐠𝐚𝐢𝐧 🔁", callback_data=f"checksub#{message.command[1]}")])
         await client.send_message(
             chat_id=message.from_user.id,
-            text="**ℙ𝕝𝕖𝕒𝕤𝕖 𝕁𝕠𝕚𝕟 𝕄𝕪 ℂ𝕙𝕒𝕟𝕟𝕖𝕝 𝕥𝕠 𝕦𝕤𝕖 𝕥𝕙𝕚𝕤 𝔹𝕠𝕥!🔱**",
+            text="**ℙ𝕝𝕖𝕒𝕤𝕖 𝕁𝕠𝕚𝕟 ℂ𝕙𝕒𝕟𝕟𝕖𝕝 𝕥𝕠 𝕦𝕤𝕖 𝕥𝕙𝕚𝕤 𝔹𝕠𝕥!🔱**",
             reply_markup=InlineKeyboardMarkup(btn),
             parse_mode="markdown"
             )
         return
     if len(message.command) ==2 and message.command[1] in ["subscribe", "error", "okay", "help"]:
         buttons = [[
-            InlineKeyboardButton('➕️ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ➕️', url='http://t.me/Dxfilter_Bot?startgroup=true')
+            InlineKeyboardButton('⚚ ΛᎠᎠ MΞ ϮԾ YԾUᏒ GᏒԾUᎮ ⚚', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
-            InlineKeyboardButton('💥ᴄʜᴀɴɴᴇʟ💥', url='https://t.me/malayali00l'),
-            InlineKeyboardButton('🍿ɢʀᴏᴜᴘ🍿', url='https://t.me/MMCINEMACHAKKU')
+            InlineKeyboardButton('💠 GᏒԾUᎮ 💠', url='https://t.me/+wUPk52ZjEEk3MmU1'),
+            InlineKeyboardButton('💠 CHΛИИΞL 💠', url='https://t.me/CINEMA_CITY_UPDATES')
             ],[
-            InlineKeyboardButton('🚸ʜᴇʟᴘ🚸', callback_data='help'),
-            InlineKeyboardButton('♻️ᴀʙᴏᴜᴛ♻️', callback_data='about')
+            InlineKeyboardButton('🚸 HΞLᎮ 🚸', callback_data='help'),
+            InlineKeyboardButton('♻️ ΛBOUT ♻️', callback_data='about')
             ],[
-            InlineKeyboardButton('🔱sᴇᴀʀᴄʜ🔱', switch_inline_query_current_chat='')
+            InlineKeyboardButton('💠 SΞΛᏒCH HΞᏒΞ 💠', switch_inline_query_current_chat='')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
